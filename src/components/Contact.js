@@ -11,11 +11,11 @@ const Contact = () => {
               We offer all kinds of IT services that <br /> ensure your success
             </p>
           </div>
-          <div className="absolute top-1 left-0 right-0 bottom-0 flex justify-end items-center">
-            <button className="text-white font-bold border border-white h-14 rounded-md w-28 hover:bg-white hover:text-black">
+          <div className="absolute top-1 left-0 right-0 bottom-0 flex justify-end items-center ">
+            <button className="text-white font-bold border border-white h-14 rounded-md w-28 hover:bg-white hover:text-black  md:mt-48 lg:mt-0 mt-48  sm:mt-48 ">
               Contact Us
             </button>
-            <button className="text-white font-bold border border-white rounded-md h-14 w-28 mx-4 hover:bg-white hover:text-black">
+            <button className="text-white font-bold border border-white rounded-md h-14 w-28 mx-4 hover:bg-white hover:text-black md:mt-48 lg:mt-0 mt-48 sm:mt-48">
               Let's Talk
             </button>
           </div>
