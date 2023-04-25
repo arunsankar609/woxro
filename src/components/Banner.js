@@ -20,10 +20,10 @@ const Banner = () => {
     <div class="relative text-white mt-1">
   <img class="w-full h-auto" src="https://im.indiatimes.in/content/2022/Sep/istockphoto-970317224-612x612_6332bc43d5d36.jpg" />
   <div class="absolute top-1 left-0 right-0 bottom-40 flex justify-center items-center text-container text-container-1">
-    <p class="lg:text-7xl font-bold ml-60 sm:text-xl ">{ content }</p>
+    <p class="lg:text-7xl lg:mx-[260px]  md:text-4xl md:mx-[-80px] font-bold ml-60 sm:text-3xl sm:mx-[-40px]  ">{ content }</p>
   </div>
   <div class="absolute top-24 left-28 right-0 bottom-0 flex justify-center items-center text-container text-container-2">
-    <p class="text-xl font-bold mr-16">Global Web Designing Company That Provides Full-cycle Software Development Services,<br/> E-commerce & Mobile App Development Services.</p>
+    <p class="text-xl font-bold mx-6">Global Web Designing Company That Provides Full-cycle Software Development Services,<br/> E-commerce & Mobile App Development Services.</p>
   </div>
 </div>
   );
