@@ -23,7 +23,7 @@ const Header = () => {
      useEffect(()=>{getAllData()},[])
   return (
    <div className=' w-full h-auto bg-black'>
-       <div className='flex justify-between   text-white  sm:hidden lg:block'>
+       <div className='flex justify-between   text-white  mobile:hidden laptop:block'>
         <div>
             <h1><span className='font-semibold '>Now Hiring</span>: Looking for a job in Full Stack Development?</h1>
         </div>
@@ -34,17 +34,17 @@ const Header = () => {
       
     </div>
     <div className="bg-white mt-2 h-20 flex items-center justify-between ">
-  <img src="https://woxro.com/public/assets/png/woxrologo.png" className="w-40 ml-4" alt="Woxro logo" />
+  <img src="https://woxro.com/public/assets/png/woxrologo.png" className="laptop:w-40 mobile:w-[120px]  ml-4" alt="Woxro logo" />
   <div className='flex'>
-  <Link to="/admin"> <button className='p-2 m-2 bg-black text-white rounded-md'>Admin Panel</button></Link>
-  <div className='hidden md sm:block md:hidden'>
+  <Link to="/admin"> <button className='p-2 m-2 bg-black text-white rounded-md mobile:hidden tablet:block laptop:block'>Admin Panel</button></Link>
+  <div className='hidden md mobile:block laptop:hidden'>
   <img onClick={()=>setSideBar(!sidebar)} className='w-10 m-3 ' src='https://cdn-icons-png.flaticon.com/512/3388/3388823.png'alt='MenuBar' />
   </div>
   </div>
 
  
 </div>
-    <div className='md:bg-metal h-10 justify-center hidden sm md:block'>
+    <div className='md:bg-metal h-10 justify-center  mobile:hidden laptop:block'>
         <ul className='flex justify-between items-center mt-1 text-white mx-14 text-lg'>
             <li>Home </li>
             <li>About Us </li>
@@ -56,8 +56,8 @@ const Header = () => {
             <li>Contact us </li>
         </ul>
     </div>
-   {sidebar && <div className=' z-50 absolute hidden md sm:block md:hidden    justify-items-end ml-64 '>
-        <ul className='bg-metal flex flex-col justify-between w-[40vh] h-screen items-center mt-1 text-white mx-14 text-lg p-4'>
+   {sidebar && <div className=' absolute sticky right-0 mobile:block laptop:hidden     '>
+        <ul className=' flex flex-col justify-between  h-screen items-center mt-1 text-white text-lg '>
             <li>Home </li>
             <li>About Us </li>
             <li>Services </li>

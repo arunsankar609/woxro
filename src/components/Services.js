@@ -12,7 +12,7 @@ const Services = () => {
         <h1 className="font-medium text-lg m-11">SERVICES WE DELIVER</h1>
       </div>
       <div className="flex justify-center">
-        <h1 className="font-bold text-4xl">
+        <h1 className="font-bold text-4xl mobile:ml-2">
           Preparing for your success, we provide truly prominent IT solutions .
         </h1>
       </div>

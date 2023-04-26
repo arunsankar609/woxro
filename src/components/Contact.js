@@ -7,7 +7,7 @@ const Contact = () => {
         <img src={mapImage} className="w-full h-64" />
         <div className="flex justify-between mt-36">
           <div className="absolute top-1 left-0 right-0 bottom-0 flex justify-center  items-center">
-            <p className="text-4xl font-bold text-white ">
+            <p className="text-4xl font-bold text-white mobile:text-[30px] mobile:ml-2 ">
               We offer all kinds of IT services that <br /> ensure your success
             </p>
           </div>

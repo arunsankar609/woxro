@@ -2,6 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens: {
+      'mobile': '360px',
+      'tablet': '640px',
+
+      'laptop': '1024px',
+
+      'desktop': '1280px',
+    },
     extend: {
       colors: {
         transparent: 'transparent',
